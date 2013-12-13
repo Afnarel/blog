@@ -1,0 +1,15 @@
+[submodule "themes/water-iris"]
+	path = themes/water-iris
+	url = git@github.com:jarv/water-iris.git
+[submodule "themes/pelican-cait"]
+	path = themes/pelican-cait
+	url = git@github.com:hdra/pelican-cait.git
+[submodule "themes/plumage"]
+	path = themes/plumage
+	url = git@github.com:kdeldycke/plumage.git
+[submodule "themes/pelican-elegant"]
+	path = themes/pelican-elegant
+	url = git@github.com:talha131/pelican-elegant.git
+[submodule "themes/pelican-sundown"]
+	path = themes/pelican-sundown
+	url = git@github.com:keningle/pelican-sundown.git

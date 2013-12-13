@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Except the following
+!.gitignore
+!README.md
+!src/content/
+!src/pelicanconf.py
+!src/publishconf.py

@@ -1,9 +1,8 @@
-# Ignore everything
-*
+# Ignore everything in src
+src/*
 
 # Except the following
-!.gitignore
-!README.md
 !src/content/
+
 !src/pelicanconf.py
 !src/publishconf.py

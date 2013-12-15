@@ -1,3 +1,5 @@
+*.pyc
+
 # Ignore everything in src
 src/*
 

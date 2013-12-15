@@ -6,6 +6,11 @@ AUTHOR = u'Afnarel'
 SITENAME = u"Afnarel's blog"
 SITEURL = ''
 
+PATH = 'content'
+READERS = {'html': None}
+#DEFAULT_DATE_FORMAT = '%Y-%m-%d'
+#DEFAULT_DATE = 'fs'
+
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
@@ -45,6 +50,22 @@ STATIC_PATHS = ['images', 'resources']
 PLUGIN_PATH = '../plugins'
 PLUGINS = ['sitemap', 'extract_toc', 'tipue_search']
 
+# A bit useless since it is the default settings but Pelican raises
+# warnings if the SITEMAP variable is not set...
+SITEMAP = {
+  'format': 'xml',
+  'priorities': {
+    'articles': 0.5,
+    'indexes': 0.5,
+    'pages': 0.5
+  },
+  'changefreqs': {
+    'articles': 'monthly',
+    'indexes': 'daily',
+    'pages': 'monthly'
+  }
+}
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
@@ -59,8 +80,6 @@ COMMENTS_INTRO="""Feel free to comment  below."""
 #############
 # To see... #
 #############
-#DEFAULT_DATE_FORMAT = '%Y-%m-%d'
-#DEFAULT_DATE = 'fs'
 #MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 #DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 #TAG_SAVE_AS = ''

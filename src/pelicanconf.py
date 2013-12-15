@@ -66,6 +66,12 @@ SITEMAP = {
   }
 }
 
+#######################
+# Markdown extensions #
+#######################
+# http://pythonhosted.org/Markdown/extensions/
+MD_EXTENSIONS = ['codehilite(css_class=highlight, linenums=True)', 'extra', 'headerid', 'toc']
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
@@ -74,14 +80,9 @@ SITEMAP = {
 ###########
 THEME = "../themes/pelican-elegant"
 RECENT_ARTICLES_COUNT=15
-
+DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 COMMENTS_INTRO="""Feel free to comment  below."""
 
-#############
-# To see... #
-#############
-#MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
-#DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 #TAG_SAVE_AS = ''
 #CATEGORY_SAVE_AS = ''
 #AUTHOR_SAVE_AS = ''

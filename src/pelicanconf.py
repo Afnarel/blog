@@ -52,7 +52,7 @@ EXTRA_PATH_METADATA = {
 # Plugins #
 ###########
 PLUGIN_PATH = '../plugins'
-PLUGINS = ['sitemap', 'extract_toc', 'tipue_search']
+PLUGINS = ['sitemap', 'extract_toc', 'tipue_search', 'neighbors']
 
 # A bit useless since it is the default settings but Pelican raises
 # warnings if the SITEMAP variable is not set...

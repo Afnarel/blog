@@ -39,6 +39,12 @@ DEFAULT_PAGINATION = 10
 
 STATIC_PATHS = ['images', 'resources']
 
+###########
+# Plugins #
+###########
+PLUGIN_PATH = '../plugins'
+PLUGINS = ['sitemap', 'extract_toc', 'tipue_search']
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 

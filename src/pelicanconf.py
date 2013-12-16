@@ -93,7 +93,7 @@ COMMENTS_INTRO="""Feel free to comment  below."""
 
 LANDING_PAGE_ABOUT={
     'title' : 'Question everything, Learn something, Answer nothing',
-    'details' : """My name is François CHAPUIS. I recently got a Master's degree in Computer Science from Polytech Nice-Sophia in France. I am mostly interested in the Python programming language and in low-level C development. I've been using the GNU/Linux operating system since 2001. I love everything that makes me think, therefore I often take part in programming challenges, online or offline. I'm also very keen on learning new technologies and keeping up to date with the latest evolutions."""
+    'details' : """My name is François CHAPUIS. I recently got a Master's degree in Computer Science from Polytech Nice-Sophia in France. I am mostly interested in the Python programming language and in low-level C development. I've been using the GNU/Linux operating system since 2001. I love everything that makes me think, therefore I often take part in programming challenges, online and offline. I am also very keen on learning new technologies and keeping up to date with the latest evolutions."""
 }
 
 PROJECTS=[

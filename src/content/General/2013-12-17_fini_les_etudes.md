@@ -4,8 +4,8 @@ Author: François Chapuis
 
 Cette année 2013 sera bientôt finie, c'est donc l'occasion d'en faire le résumé.
 
-5ème année en apprentissage chez SecludIT
------------------------------------------
+Apprentissage chez SecludIT
+---------------------------
 
 Côté études, j'ai réalisé cette année en apprentissage dans une start-up de Sophia-Antipolis, [SecludIT](http://secludit.com), spécialisée dans la *sécurisation des infrastructures cloud*. SecludIT propose un produit nommé [Elastic Detector](https://elastic-detector.secludit.com/) sur Amazon Web Services, en version SaaS ou Virtual Appliance. Elastic Detector analyse en temps réel les machines d'une infrastructure cloud (Amazon EC2, HP Cloud, OpenStack, VMware vCloud, etc.) et avertit son utilisateur dès qu'une faille est détectée (port ouvert...). Il permet également d'analyser une marchine particulière en profondeur et de fournir à l'utilisateur un rapport listant les différentes failles trouvées et leur sévérité, sans impacter le système en production.
 

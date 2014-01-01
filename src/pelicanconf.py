@@ -38,14 +38,13 @@ SOCIAL = (('LinkedIn', 'http://fr.linkedin.com/in/afnarel'),
 TWITTER_USERNAME = 'Afnarel'
 GITHUB_URL = 'https://github.com/Afnarel'
 
-DISQUS_SITENAME = 'afnarelsblog'
-
 DEFAULT_PAGINATION = 10
 
 STATIC_PATHS = ['images', 'resources', 'extra']
 EXTRA_PATH_METADATA = {
     # Move the .htaccess file to the root
     'extra/.htaccess': {'path': '.htaccess'},
+    'extra/canalplus.php': {'path': 'canalplus.php'},
 }
 
 ###########

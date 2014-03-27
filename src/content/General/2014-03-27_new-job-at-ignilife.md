@@ -3,7 +3,7 @@ Date: 2014-03-27 16:08
 Tags: Ignilife
 Author: François Chapuis
 
-At the end of the month (3rd of March), I have joined
+At the beginning of the month (3rd of March), I have joined
 [Ignilife](http://www.ignilife.com) as a Python (Django) back-end developer.
 
 Ignilife is a start-up founded by Fabrice PAKIN (CEO) and David BESSOUDO (CTO)

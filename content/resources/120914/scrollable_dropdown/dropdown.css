@@ -1,0 +1,27 @@
+.your-menu ul.dropdown-menu {
+	z-index: 0;
+	height: 200px; /* You can change this value */
+}
+
+.your-menu.open > a.dropdown-toggle::before,
+.your-menu.open > a.dropdown-toggle::after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	bottom: -9px;
+}
+
+.your-menu.open > a.dropdown-toggle::before {
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #CCC;
+	border-bottom-color: rgba(0, 0, 0, 0.2);
+	right: 7px;
+}
+.your-menu.open > a.dropdown-toggle::after {
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid white;
+	right: 8px;
+	z-index: 1001;
+}

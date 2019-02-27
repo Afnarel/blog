@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Scrollable dropdown example</title>
+		<link href="bootstrap/bootstrap.css" media="screen" rel="Stylesheet" type="text/css" />
+		<link href="lionbars/lionbars.css" media="screen" rel="Stylesheet" type="text/css" />
+		<script type="text/javascript" src="jquery/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+		<script type="text/javascript" src="bootstrap/bootstrap-dropdown.js"></script>
+		<script type="text/javascript" src="lionbars/jquery.lionbars.0.3.js"></script>
+
+		<link href="dropdown.css" media="screen" rel="Stylesheet" type="text/css" /> <!-- This is the CSS you must edit and include -->
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.dropdown-toggle').dropdown();
+
+				/* This is the javascript bit you must edit and include */
+				$('.your-menu a.dropdown-toggle').on('click', function() {
+					var menu = $(this).parent();
+					if(menu.hasClass('open')) {
+						var menuContent = menu.find('ul.dropdown-menu');
+						menuContent.lionbars();
+						menuContent.css('position', 'absolute');
+					}
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<nav class="container-fluid">
+
+					<div class="your-menu btn-group pull-right">
+						<a class="btn dropdown-toggle" href="#" data-toggle="dropdown">
+							The dropdown
+						</a>
+						<ul class="dropdown-menu" style="height: 100px">
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+							<li><a href="#">Truc</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+	</body>
+
+</html>

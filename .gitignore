@@ -1,10 +1,7 @@
 *.pyc
 
 # Ignore everything in src
-src/*
+output/*
 
 # Except the following
-!src/content/
-
-!src/pelicanconf.py
-!src/publishconf.py
+# !src/content/

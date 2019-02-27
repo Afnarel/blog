@@ -12,7 +12,7 @@ PORT=8000
 SSH_HOST=afnarel.com
 SSH_PORT=22
 SSH_USER=afnarel
-SSH_TARGET_DIR=/var/www
+SSH_TARGET_DIR=/var/www/blog
 
 
 DEBUG ?= 0

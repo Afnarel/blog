@@ -14,7 +14,7 @@ CONFIG = {
     'deploy_path': 'output',
     # Remote server configuration
     'production': 'afnarel@afnarel.com:22',
-    'dest_path': '/var/www',
+    'dest_path': '/var/www/blog',
     # Port for `serve`
     'port': 8000,
 }

@@ -3,7 +3,7 @@ Author: François Chapuis
 
 Just a list of thoughts that I try to take inspiration from as guidelines for life...
 
-### Question everything, Learn something, Answer nothing ###
+### Question everything, Learn something, Answer nothing
 
 This is a quote by [Euripides](http://en.wikipedia.org/wiki/Euripides). I do not know what the original context was but this is how I, and many others from what I've read here and there on the internet, interpret it.
 
@@ -14,7 +14,7 @@ This is a quote by [Euripides](http://en.wikipedia.org/wiki/Euripides). I do not
 <u>Answer nothing</u>: this is the counterpart of the previous point: **be open minded**. Having an opinion on a given topic does not mean you should then keep it all your life. If someone or something makes you realize that the reasons you have this opinion might be wrong, you should not ignore it (but do not accept it blindly as a new "truth" either, as the first point of this quote warns!)
 
 
-### Distilling success ###
+<!-- ### Distilling success ###
 
 1. I believe *knowledge is the key to intelligence*: people become intelligent as they acquire more and more knowledge.
 2. The Threshold hypothesis, introduced by [Ellis Paul Torrance](http://en.wikipedia.org/wiki/Ellis_Paul_Torrance), says that *a person has to be "intelligent" in order to be "creative"*, whereas the opposite is not true. I agree with this: I can't think of a person that did something groundbreaking and wasn't intelligent. On the other hand, many head of the class never did anything revolutionary though they were undoubtedly very bright.
@@ -26,10 +26,10 @@ This is a quote by [Euripides](http://en.wikipedia.org/wiki/Euripides). I do not
 
 	<center>![Distilling success]({static}/images/thoughts/success_distillation.png)</center>
 
-	**Imagination is as important as knowledge: none of them can be left aside on the road to success :)**
+	**Imagination is as important as knowledge: none of them can be left aside on the road to success :)** -->
 
 
-### A few others ###
+### A few quotes :)
 
 *Do or do not, there is no try* (Master Yoda, Star Wars :p)
 

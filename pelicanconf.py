@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Afnarel'
 SITENAME = "Afnarel's blog"
-SITEURL = 'http://afnarel.com'
+SITEURL = 'http://192.168.1.78:8000'
 
 PATH = 'content'
 
@@ -73,6 +73,9 @@ MARKDOWN = {
             'css_class': 'highlight',
             'linenums': True
         },
+        'markdown.extensions.toc' :{
+            'permalink' : 'true'
+        },
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
         # 'markdown.extensions.headerid': {},
@@ -98,21 +101,28 @@ COMMENTS_INTRO = """Feel free to comment  below."""
 
 LANDING_PAGE_ABOUT = {
     'title': 'Question everything, Learn something, Answer nothing',
-    'details': """My name is François CHAPUIS. I recently got a Master's degree in Computer Science from Polytech Nice-Sophia in France. I am mostly interested in the Python programming language and in low-level C development. I've been using the GNU/Linux operating system since 2001. I love everything that makes me think, therefore I often take part in programming challenges, online and offline. I am also very keen on learning new technologies and keeping up to date with the latest evolutions."""
+    'details': """
+Hi! My name is François CHAPUIS but I live on the internet under the very mysterious pseudonyme <b>Afnarel</b>.
+In what some call real life and others <em>The Matrix</em>, I live in Antibes, on the French Riviera, next to Sophia Antipolis.
+I am a former <a href="http://www.polytech.unice.fr/">Polytech Nice Sophia</a> student and <a href="https://www.ignilife.com/">Ignilife</a> employee.
+I currently work remotely for <a href="http://www.nextmotion.net/">Nextmotion</a> and do some freelancing.
+Forever GNU/Linux, Open Source and Python lover, I also greedily learn every new tech I come across.
+I love everything that makes me think, therefore I often take part in programming challenges, online and offline.
+"""
 }
 
-PROJECTS = [
-    {
-        'name': 'Some project 1 (coming...)',
-        'url': '',
-        'description': """Project description"""
-    },
-    {
-        'name': 'Some project 2 (coming...)',
-        'url': '',
-        'description': """Project description"""
-    }
-]
+# PROJECTS = [
+#     {
+#         'name': 'Some project 1 (coming...)',
+#         'url': '',
+#         'description': """Project description"""
+#     },
+#     {
+#         'name': 'Some project 2 (coming...)',
+#         'url': '',
+#         'description': """Project description"""
+#     }
+# ]
 
 # Appears before the licence and after site name
 SITESUBTITLE = ""
